@@ -131,9 +131,28 @@ img {
   color: var(--color-main);
 }
 .list-contacts-header-item-link:hover,
+.list-contacts-header-item-link:focus,
+.list-contacts-header-item-link:hover,
 .list-contacts-header-item-link:focus {
   color: var(--color-accent-primary);
 }
+.envelope {
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+}
+.smartphone {
+  width: 10px;
+  height: 16px;
+  margin-right: 10px;
+}
+.list-contacts-header-item-link:hover .envelope,
+.list-contacts-header-item-link:focus .envelope,
+.list-contacts-header-item-link:hover .smartphone,
+.list-contacts-header-item-link:focus .smartphone {
+  fill: var(--color-accent-primary);
+}
+
 /* main */
 /* hero */
 .section-hero {

@@ -41,13 +41,19 @@
         </nav>
         <ul class="list-contacts-header">
           <li class="list-contacts-header-item">
-            <a class="link list-contacts-header-item-link" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
+            <a class="link list-contacts-header-item-link" href="mailto:info@devstudio.com">
+              <svg class="envelope">
+                <use href="./images/icons/icons.svg#icon-envelope"></use>
+              </svg>
+              info@devstudio.com</a
             >
           </li>
           <li class="list-contacts-header-item">
-            <a class="link list-contacts-header-item-link" href="tel:+380961111111"
-              >+38 096 111 11 11</a
+            <a class="link list-contacts-header-item-link" href="tel:+380961111111">
+              <svg class="smartphone">
+                <use href="./images/icons/icons.svg#icon-smartphone"></use>
+              </svg>
+              +38 096 111 11 11</a
             >
           </li>
         </ul>
@@ -57,7 +63,6 @@
     <main class="main">
       <!-- hero  -->
       <section class="section-hero">
-        <!-- ????? Почему при масштабировании заголовок и кнопка вылазять за background? Точно так и с контентом других секций. Для третьего ДЗ это нормально? -->
         <div class="hero-container container">
           <h1 class="title-section-hero">Эффективные решения для вашего бизнеса</h1>
           <button class="button-section-hero" type="button">Заказать услугу</button>
@@ -112,7 +117,7 @@
             <li class="list-section-activities-item">
               <img
                 src="./images/index.html/activities/adaptive-markup.jpg"
-                alt="Специалист выполняет адаптирует сайт для разных устройств"
+                alt="Специалист адаптирует сайт для разных устройств"
                 width="370"
                 height="294"
               />
@@ -185,6 +190,56 @@
           </ul>
         </div>
       </section>
+      <!-- сlients -->
+      <section>
+        <div class="container">
+          <h2 class="title-section">Постоянные клиенты</h2>
+          <ul class="list-section-сlients">
+            <li class="list-section-сlients-item">
+              <a class="list-section-сlients-item-link" href="">
+                <svg class="" width="40" height="46">
+                  <use href=""></use>
+                </svg>
+              </a>
+            </li>
+            <li class="list-section-сlients-item">
+              <a class="list-section-сlients-item-link" href="">
+                <svg class="" width="40" height="46">
+                  <use href=""></use>
+                </svg>
+              </a>
+            </li>
+            <li class="list-section-сlients-item">
+              <a class="list-section-сlients-item-link" href="">
+                <svg class="" width="40" height="46">
+                  <use href=""></use>
+                </svg>
+              </a>
+            </li>
+            <li class="list-section-сlients-item">
+              <a class="list-section-сlients-item-link" href="">
+                <svg class="" width="40" height="46">
+                  <use href=""></use>
+                </svg>
+              </a>
+            </li>
+            <li class="list-section-сlients-item">
+              <a class="list-section-сlients-item-link" href="">
+                <svg class="" width="40" height="46">
+                  <use href=""></use>
+                </svg>
+              </a>
+            </li>
+            <li class="list-section-сlients-item">
+              <a class="list-section-сlients-item-link" href="">
+                <svg class="" width="40" height="46">
+                  <use href=""></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
     </main>
     <!-- footer -->
     <footer class="footer">
@@ -228,4 +283,5 @@ Cкринридер озвучивает текст из атрибута alt?
 Prettier неудобно разрывает теги (например </a> в footer->address->ul->li). Так и должно быть или лучше изменить настройки самого Prettier?
 Применяют ли классы к изображениям?
 Есть ли правильный порядок поочерёдности разметки div, например от мелких блоков до больших? (когда один div находится в другом div)
-Нужно ли оборачивать в div все блоки и отдельно подблоки внутри блоков (например отдельно навигацию и отдельно контакты внутри header)?-->
+Нужно ли оборачивать в div все блоки и отдельно подблоки внутри блоков (например отдельно навигацию и отдельно контакты внутри header)?
+Почему при масштабировании заголовок и кнопка вылазять за background? Точно так и с контентом других секций. Для третьего ДЗ это нормально?-->
