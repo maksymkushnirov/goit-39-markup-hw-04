@@ -9,6 +9,7 @@
   --color-accent-primary: #2196f3;
   --color-accent-secondary: #000000;
   --color-background-primary: #2f303a;
+  --color-background-secondary: #f5f4fa;
 }
 /* body */
 body {
@@ -203,6 +204,19 @@ img {
 .list-section-advantages-item:not(:last-child) {
   margin-right: 30px;
 }
+.list-section-advantages-item-icon-background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 120px;
+  margin-bottom: 30px;
+  background-color: var(--color-background-secondary);
+  border-radius: 4px;
+}
+.list-section-advantages-item-icon {
+  width: 70px;
+  height: 70px;
+}
 .list-section-advantages-item-title {
   font-size: 14px;
   /* !!! Возможно нужно будет вписать font-weight после сброса !!!*/
@@ -238,7 +252,7 @@ img {
 /* team */
 .section-team {
   padding: 94px 0;
-  background-color: #f5f4fa;
+  background-color: var(--color-background-secondary);
 }
 .list-section-team {
   display: flex;
