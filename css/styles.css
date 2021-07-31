@@ -10,6 +10,7 @@
   --color-accent-secondary: #000000;
   --color-background-primary: #2f303a;
   --color-background-secondary: #f5f4fa;
+  --color-icon-primary: #afb1b8;
 }
 /* body */
 body {
@@ -282,6 +283,33 @@ img {
   line-height: 1.19;
   font-size: 14px;
   letter-spacing: 0.03em;
+  margin-bottom: 16px;
+}
+.list-link-social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.link-social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  fill: var(--color-icon-primary);
+}
+.link-social:hover,
+.link-social:focus {
+  fill: var(--color-white-primary);
+  background-color: var(--color-accent-primary);
+}
+.link-social-item:not(:last-child) {
+  margin-right: 10px;
+}
+.social-icon {
+  width: 20px;
+  height: 20px;
 }
 /* portfolio.html */
 /* examples */
