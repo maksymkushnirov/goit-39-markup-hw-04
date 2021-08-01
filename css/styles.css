@@ -473,9 +473,45 @@ img {
 .link-contacts-footer:focus {
   color: var(--color-accent-primary);
 }
+.footer-join {
+  margin-left: 70px;
+}
+.footer-join-title {
+  margin-bottom: 20px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--color-white-primary);
+}
+.footer-join-list-link-social {
+  display: flex;
+  align-items: center;
+}
+.footer-join-list-link-social-item:not(:last-child) {
+  margin-right: 10px;
+}
+.footer-join-list-link-social-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.footer-join-list-link-social-link:hover,
+.footer-join-list-link-social-link:focus {
+  background-color: var(--color-accent-primary);
+}
+.footer-join-list-link-social-icon {
+  width: 20px;
+  height: 20px;
+  fill: var(--color-white-primary);
+}
 /* Q&A history
 Нужно ли использовать сброс:
 a{text-decoration:none;} ul{list-style:none;}?
 Или во втором ДЗ ссылки и списки могут оставаться со стандартными декоративными элементами?
 Какие глобальные стили применяют к body?
-Правильно ли прописано? «B1» Допускается глобальный сброс стилей по селектору тега для элементов <h1>...<h6>, <p> и <ul>*/
+Правильно ли прописано? «B1» Допускается глобальный сброс стилей по селектору тега для элементов <h1>...<h6>, <p> и <ul>*/ ;
