@@ -163,6 +163,12 @@ img {
   margin: 0 auto;
   padding: 200px 0;
   text-align: center;
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url(../images/index.html/hero/hero-background.jpg);
 }
 .title-section-hero {
   font-weight: 900;
