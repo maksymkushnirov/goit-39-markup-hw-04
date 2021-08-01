@@ -11,6 +11,8 @@
   --color-background-primary: #2f303a;
   --color-background-secondary: #f5f4fa;
   --color-icon-primary: #afb1b8;
+  --shadow-section-examples-example-item: 0px 1px 1px rgba(0, 0, 0, 0.12),
+    0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 /* body */
 body {
@@ -314,10 +316,6 @@ img {
 .link-social-item:not(:last-child) {
   margin-right: 10px;
 }
-.social-icon {
-  width: 20px;
-  height: 20px;
-}
 /* сlients */
 .section-clients {
   padding-top: 94px;
@@ -421,6 +419,9 @@ img {
   margin-left: 30px;
   margin-top: 30px;
   flex-basis: calc(100% / 3 - 30px);
+}
+.list-section-examples-example-item:hover {
+  box-shadow: var(--shadow-section-examples-example-item);
 }
 .list-section-examples-example-item-text {
   padding: 20px 24px;
